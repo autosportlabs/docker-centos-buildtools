@@ -1,5 +1,5 @@
-FROM blalor/centos:latest
-MAINTAINER Brian Lalor <blalor@bravo5.org>
+FROM localhost:5000/core/centos
+MAINTAINER Brian Lalor <brian@autosportlabs.com>
 
 RUN yum -y groupinstall "Development tools"
 RUN yum -y install \
