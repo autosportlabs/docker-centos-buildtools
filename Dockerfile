@@ -1,4 +1,4 @@
-FROM zardoz.podzone.org:11002/core/centos
+FROM zardoz.podzone.org:11003/core/centos
 MAINTAINER Brian Lalor <brian@autosportlabs.com>
 
 RUN yum -y groupinstall "Development tools"
